@@ -8,12 +8,12 @@
   "typings": "./lib/tokenRefreshLink.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/newsiberian/apollo-link-token-refresh.git"
+    "url": "git+https://github.com/ungchy/apollo-link-token-refresh.git"
   },
   "bugs": {
-    "url": "https://github.com/newsiberian/apollo-link-token-refresh/issues"
+    "url": "https://github.com/ungchy/apollo-link-token-refresh/issues"
   },
-  "homepage": "https://github.com/newsiberian/apollo-link-token-refresh#readme",
+  "homepage": "https://github.com/ungchy/apollo-link-token-refresh#readme",
   "scripts": {
     "build:browser": "browserify ./lib/bundle.umd.js -o=./lib/bundle.js --i apollo-link && npm run minify:browser",
     "build": "tsc -p .",
